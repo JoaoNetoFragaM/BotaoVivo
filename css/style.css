@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+body {
+    background-color: #E1E9DE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#escurecerTela {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Cor de fundo com transparência */
+    z-index: 2; /* Certifique-se de que esteja acima de todos os outros elementos */
+    display: none; /* Inicialmente oculto */
+}
+
+
+#conteudo {
+    background: #E1E9DE;
+    width: 600px; /* Ajuste a largura conforme necessário */
+    padding: 20px;
+    text-align: center;
+    font-family: "Noto Sans", sans-serif;
+}
+
+.div-btns {
+    margin-top: 20px;
+}
+
+.btn {
+    background: #E1E9DE;
+    color: #333333;
+    border: none;
+    padding: 10px;
+    width: 80px;
+    border-radius: 5px;
+    margin: 10px;
+    border: 2px solid #333;
+    cursor: pointer;
+}
+
+#hamster {
+    display: none;
+    position: absolute;
+    z-index: 3;
+}
+
+#carregando {
+    display: none;
+    z-index: 3;
+    position: absolute;
+    padding-top: 250px;
+    color: #fff;
+}
+
+.rodape {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #E1E9DE;
+    text-align: center;
+    padding: 10px 0;
+    font-family: "Poppins", sans-serif;
+}
+
+
+span{
+    color: #6b04fd;
+}

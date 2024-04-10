@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perguntinha</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/hamster.css">
+    <link rel="shortcut icon" href="img/ame.ico" type="image/x-icon">
+</head>
+
+<body>
+    <div id="conteudo">
+        <h2>Respoda com Sinceridade:</h2>
+        <h2>O Leo Briga com o time in-game?</h2>
+        <div class="div-btns">
+            <button class="btn" onclick="sim()">SIM</button>
+            <button class="btn" onclick="desvia(this)" onmouseover="desvia(this)">NÃO</button>
+        </div>
+    </div>
+
+    <div id="escurecerTela"></div> <!-- Div para escurecer a tela -->
+
+    <div id="hamster" aria-label="Hamster laranja e castanho correndo em uma roda de metal" role="img" class="wheel-and-hamster">
+        <div class="wheel"></div>
+        <div class="hamster">
+            <div class="hamster__body">
+                <div class="hamster__head">
+                    <div class="hamster__ear"></div>
+                    <div class="hamster__eye"></div>
+                    <div class="hamster__nose"></div>
+                </div>
+                <div class="hamster__limb hamster__limb--fr"></div>
+                <div class="hamster__limb hamster__limb--fl"></div>
+                <div class="hamster__limb hamster__limb--br"></div>
+                <div class="hamster__limb hamster__limb--bl"></div>
+                <div class="hamster__tail"></div>
+            </div>
+        </div>
+        <div class="spoke"></div>
+    </div>
+
+    <h2 id="carregando">Carregando Resultado...</h2>
+
+    <footer class="rodape"><p class="rodape-texto">Feito Com Carinho Pelo João Neto Fraga, <span> Front-End Dev.</span></p></footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
